@@ -1,0 +1,407 @@
+.header {
+    width: 100%;
+}
+
+.headerAll {
+    width: 100%;
+    height: 40px;
+    background-color: #333;
+}
+
+.headerList {
+    width: 1226px;
+    margin: 0 auto;
+    height: 40px;
+    background: #333;
+}
+
+
+.topList {
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    background-color: #333;
+}
+
+.topList ul {
+    width: 800px;
+    float: left;
+}
+
+.topList ul li {
+    float: left;
+    background: url("../images/shuxian_03.png") no-repeat right center;
+    background-size: 1px 10px;
+    padding: 0 8px;
+}
+
+.topList ul li a {
+    z-index: 30;
+    height: 40px;
+    font-size: 12px;
+    color: #b0b0b0;
+    background: #333;
+}
+
+.topDown {
+    position: relative;
+}
+
+.topList .ewm {
+    position: absolute;
+    top: 40;
+    position: absolute;
+    left: -50%;
+    width: 110px;
+    box-shadow: 0 3px 5px 2px #cccccc;
+    background: white;
+    font-size: 12px;
+    text-align: center;
+    display: none;
+    z-index: 99;
+}
+
+.topList .ewm img {
+    width: 100%;
+    padding: 15px 15px 0 15px;
+}
+
+.topList ul li a:hover {
+    color: white;
+    text-decoration: none !important;
+}
+
+.topList li:last-of-type {
+    background-image: none;
+}
+
+.shopList {
+    width: 358px;
+    height: 40px;
+    line-height: 40px;
+    float: right;
+    background-color: #333;
+}
+
+.shopList ul li {
+    float: left;
+    padding: 0 15px;
+    background: url("../images/shuxian_03.png") no-repeat right center;
+    background-size: 1px 10px;
+}
+
+.shopList .regist .btn-primary {
+    font-size: 12px !important;
+    color: #b0b0b0 !important;
+    background: #333 !important;
+    text-align: center !important;
+    border: none;
+    outline: none;
+}
+
+.shopList li a {
+    font-size: 12px;
+    color: #b0b0b0;
+    background: #333;
+}
+
+.shopList i {
+    display: inline-block;
+    font-size: 25px;
+    color: #b0b0b0;
+}
+
+.shopList ul li:nth-last-child(2) {
+    background-image: none;
+}
+
+.shopList li:nth-last-child(1) {
+    background-image: none;
+    position: relative;
+    z-index: 32;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #b0b0b0;
+    background: #424242;
+}
+
+.shopList li:nth-last-child(1) a {
+    background: #424242;
+}
+
+.shopList li:nth-last-child(1):hover {
+    background: white;
+    color: #ff6700;
+}
+
+.shopList li:nth-last-child(1):hover a {
+    background: white;
+    color: #ff6700;
+}
+
+.shopList li:nth-last-child(1):hover i {
+    background: white;
+    color: #ff6700;
+}
+
+.shopList ul li a:hover {
+    color: white;
+    text-decoration: none !important;
+}
+
+.shopList .shopBox {
+    width: 300px;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    box-shadow: 0px 7px 6px #b0b0b0;
+    height: 100px;
+    display: none;
+    background-color: white;
+}
+.shopBox span{
+    line-height: 100px;
+}
+
+.list {
+    width: 100%;
+}
+
+.listAll {
+    width: 1226px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.listAll ul {
+    margin-left: 60px;
+    float: left;
+    width: 650px;
+}
+.listAll ul li:nth-of-type(1){
+    width: 100px;
+}
+.listAll ul li {
+    float: left;
+    margin-top: 10px;
+    display: block;
+    padding: 26px 8px 38px;
+    color: #333;
+    -webkit-transition: color .2s;
+    transition: color .2s;
+}
+
+.listAll ul li:hover {
+    color: #ff6700;
+    
+}
+
+.listAll img {
+    margin-top: 25px;
+    float: left;
+}
+
+.list .seek {
+    float: right;
+    position: relative;
+}
+
+.list .search-cont {
+    width: 244px;
+    height: 50px;
+    border: 1px solid #e0e0e0;
+    margin-left: 53px;
+    margin-top: 24px;
+    box-sizing: border-box;
+    outline: none;
+    padding-left: 10px;
+}
+
+.search {
+    display: inline-block;
+    width: 52px;
+    height: 50px;
+    border: 1px solid #e0e0e0;
+    margin-top: 24px;
+    box-sizing: border-box;
+    vertical-align: top;
+    font-size: 25px !important;
+    text-align: center;
+    line-height: 50px;
+    background: white;
+}
+ .pull-down{
+    position: absolute;
+    top: 114px;
+    right: 198px;
+    width: 244px;
+    z-index: 999;
+    background-color: #fff;
+    border: 1px solid #ff6700;
+    display: none;
+}
+ .pull-down li{
+    width: 243px;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+}
+.pull-down li:hover{
+    background-color: #e0e0e0;
+}
+
+
+.list .search:hover {
+    background-color: #ff6700;
+    color: white;
+    
+}
+
+.nav-goods {
+    height: 230px;
+    overflow: hidden;
+    transition: 0.2s;
+    position: absolute;
+    top: 140px;
+    background: white;
+    box-sizing: border-box;
+    z-index: 99999;
+    top: -220px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    display: none;
+}
+
+.nav-goods .nav-goods-box {
+    margin: 0 auto;
+    width: 100%;
+    height: 230px;
+    border: 1px solid #e0e0e0;
+    box-sizing: border-box;
+}
+
+.nav-goods .nav-goods-box .nav-goods-box-sub {
+    width: 1228px;
+    height: 230px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.nav-goods .nav-goods-box .nav-goods-box-sub .nav_goods_ul {
+    width: 100%;
+    height: 230px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 12px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.nav-goods .nav-goods-box .nav-goods-box-sub .nav_goods_ul li {
+    float: left;
+    width: 204px;
+    height: 230px;
+    padding-top: 40px;
+    background: url(../images/shuxian_03.png) no-repeat;
+    background-position: right 40px;
+}
+
+.nav-goods .nav-goods-box .nav-goods-box-sub .nav_goods_ul li:nth-of-type(6n) {
+    background: none;
+}
+
+.nav-goods .nav-goods-box .nav-goods-box-sub .nav_goods_ul li .nav_goods_img {
+    margin: 0 22px;
+}
+
+.nav-goods .nav-goods-box .nav-goods-box-sub .nav_goods_ul li .title {
+    color: #333333;
+    margin-top: 20px;
+}
+
+.nav-goods .nav-goods-box .nav-goods-box-sub .nav_goods_ul li .price {
+    color: #ff6700;
+    margin-top: 10px;
+}
+
+.modal-content h3 {
+    padding: 15px;
+    background-color: #cccccc;
+    border-bottom: 1px solid black;
+}
+
+.modal-title{
+    position: relative !important;
+    height: 32px !important;
+    width: 80px !important;
+    line-height: 32px !important;
+}
+
+.modalAgreement{
+    margin-left: 20px !important;
+    margin-bottom: 20px !important;
+    font-size: 16px !important;
+    line-height: 25px !important;
+}
+.modal-body .modalAgreement span{
+    color: #ff6700  !important;
+    cursor: pointer !important;
+
+}
+.management{
+    max-height: 300px;
+    overflow: hidden;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: left;
+}
+.management iframe{
+    border: none;
+    height:300px ;
+    width: 100%;
+}
+.modal-dialog .modal-content .modal-footer .btn{
+    display: inline-block ;
+    width: 158px;
+    height: 38px;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #b0b0b0;
+    font-size: 14px;
+    line-height: 38px;
+    text-align: center;
+    color: #b0b0b0;
+    cursor: pointer;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+}
+.modal-dialog .modal-content .modal-footer .btn-primary{
+    background: #ff6700 !important;
+    border-color: #ff6700 ;
+    color: #fff;
+}
+.modal-dialog .modal-content .modal-footer .btn-primary a{
+    background: #ff6700 !important;
+    color: #fff;
+    font-size: 14px;
+    display: block;
+}
+.modal-dialog .modal-content .modal-footer .btn-default{
+    background: #b0b0b0;
+    border-color: #b0b0b0;
+    color: #fff;
+}
+.modal-dialog .modal-content .modal-footer{
+    width: 350px;
+
+    margin: 0 auto;
+}
+
+
+

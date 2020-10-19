@@ -1,0 +1,184 @@
+body{
+    background-color: rgb(245,245,245);
+}
+.merchandise{
+    width: 1226px;
+    margin: 0 auto;
+}
+.exhibition{
+    background-color: rgb(245,245,245);
+}
+.merchandise p a{
+    cursor: pointer;
+    color: #b0b0b0;
+}
+.merchandise p{
+    height: 40px;
+    font-size: 12px;
+    line-height: 40px;
+    background: #f5f5f5;
+}
+.merchandise p a:hover{
+    text-decoration: none;
+}
+.merchandise p span{
+    margin: 0 .5em;
+    color: #b0b0b0;
+}
+.classify{
+    background-color: white;
+    height: 60px;
+}
+.group{
+    width: 1226px;
+    margin: 0 auto;
+    position: relative;
+}
+.group span{
+    top: 0;
+    left: 0;
+    color: #b0b0b0;
+    position: absolute;
+    height: 86px;
+    line-height: 66px;
+    padding: 7px 0;
+    font-size: 14px;
+}
+.group ul{
+    height: 48px;
+    position: relative;
+    overflow: hidden;
+    border-top: 1px solid #ededed;
+    padding: 0 60px 0 124px;
+    margin: 0;
+    list-style: none;
+    font-size: 0;
+}
+.group ul li{
+    display: inline-block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #424242;
+    font-size: 14px;
+    width: 148px;
+    padding: 26px 0;
+    height: 40px;
+    line-height: 30px;
+}
+.group ul li:hover a{
+  color: #f60;
+  text-decoration: none;
+}
+/* 综合 */
+.synthesize{
+    background-color: rgb(245,245,245);
+}
+.synthesize{
+    position: relative;
+    height: 80px;
+    margin: 20px 0 0 0;
+}
+.composite {
+    width: 1226px;
+    margin:0 auto;
+}
+.composite ul{
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 32px;
+}
+.composite ul li{
+    float: left;
+    padding: 0 30px;
+    border-left: 1px solid #e0e0e0;
+    line-height: 20px;
+}
+/* 商品展示 */
+.goodsList{
+    background-color: rgb(245,245,245);
+
+}
+.goodsList .list{
+    width: 1226px;
+    margin: 0 auto;
+}
+.goodsList .listShop{
+    position: relative;
+    float: left;
+    width: 292px;
+    height: 383px;
+    padding-top: 47px;
+    margin-right: 14px;
+    margin-bottom: 14px;
+    text-align: center;
+    background: #fff;
+    -webkit-transition: -webkit-box-shadow .5s linear;
+    transition: -webkit-box-shadow .5s linear;
+    transition: box-shadow .5s linear;
+    transition: box-shadow .5s linear,-webkit-box-shadow .5s linear;
+}
+.goodsList .listShop:hover{
+    box-shadow: 0 0 20px #b0b0b0;
+}
+.listShop:hover a{
+    text-decoration: none;
+}
+.list h3{
+    height: 400px;
+    line-height: 400px;
+    text-align: center;
+}
+.listShop .listImg{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 16px;
+}
+.listShop .listImg img{
+    width: 200px;
+    height: 200px;
+}
+.listShop h2{
+    margin: 0 auto;
+    width: 230px;
+    font-size: 14px;
+    font-weight: 400;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.listShop p{
+    margin: 0 0 15px;
+    color: #ff6700;
+}
+.smallImg{
+    width: 34px;
+    height: 34px;
+    margin: 10px 130px;
+    border: 1px solid #e0e0e0;
+    cursor: pointer;
+    -webkit-transition: border-color .2s linear;
+    transition: border-color .2s linear;
+}
+.smallImg img{
+    width: 34px;
+    height: 34px;
+}
+.listShop span{
+    display: inline-block;
+    cursor: default;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background: #83c44e;
+    border-radius: 2px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 13px;
+    margin-right: 4px;
+    color: #fff;
+    height: 18px;
+    width: 42px;
+    vertical-align: top;
+}

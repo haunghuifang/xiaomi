@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>详情页</title>
+    <link rel="shortcut icon" href="../images/bitbug_favicon.ico" type="image/x-icon" />
+    <script src="../resource/js/QF.js"></script>
+    <link rel="stylesheet" href="top.html">
+    <link rel="stylesheet" href="../css/swiper.min.css">
+    <script src="../js/jquery-3.4.1.js"></script>
+    <link rel="stylesheet" href="../common/common.css">
+    <script src="../js/header.js"></script>
+    <script src="../js/footer.js"></script>
+    <script src="../js/Cookie.js"></script>
+    <link rel="stylesheet" href="../css/detail.css">
+    <link rel="stylesheet" href="../icon/iconfont.css">
+
+    <style>
+        .swiper-container {
+            width: 560px;
+            height: 300px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .swiper-slide {
+            background-size: cover;
+            background-position: center;
+        }
+
+        .gallery-top {
+            position: relative;
+        }
+        .sw1 .swiper-slide{
+            background-size: 124%;
+            background-repeat:no-repeat;
+        }
+
+        .sw2 .swiper-slide{
+            background-size: 92%;
+            background-repeat:no-repeat;
+        }
+        .swiper-button-next.swiper-button-white,
+        .swiper-container-rtl .swiper-button-prev.swiper-button-white {
+            background-color: rgba(11, 12, 12, 0.5);
+            right: 0px;
+            position: absolute;
+        }
+
+        .swiper-button-prev.swiper-button-white,
+        .swiper-container-rtl .swiper-button-next.swiper-button-white {
+            background-color: rgba(11, 12, 12, 0.5);
+            left: 0px;
+            position: absolute;
+        }
+
+        .gallery-top {
+            height: 400px;
+            width: 300px;
+        }
+
+        .swiper-slide .swiper-slide-duplicate .swiper-slide-prev{
+            width: 50px;
+        }
+
+        .gallery-thumbs {
+            height: 100px;
+            box-sizing: border-box;
+            padding: 10px 0;
+        }
+
+        .gallery-thumbs .swiper-slide {
+            height: 100px;
+            width: 100px;
+            opacity: 0.4;
+        }
+
+        .gallery-thumbs .swiper-slide-active {
+            opacity: 1;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="top"></div>
+    <div class="mian">
+        <div class="navTop">
+            <div class="nav">
+                <div class="ultimate">
+                    <h2 id="title">
+                </div>
+                <div class="series">
+                    </h2><span>|</span><a href="javascript:;" id="title2"></a></div>
+
+                <div class="navList">
+                    <a href="javascript:;">概述</a> <span> |</span><a href="javascript:;">参数</a><span>|</span><a
+                        href="javascript:;">F码通道</a><span>|</span><a href="javascript:;">咨询服务</a><span>|</span><a
+                        href="javascript:;">用户评价</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="centre">
+            <div class="show clear_fix">
+                <div class="pics">
+                    <div class="picszs" id="picszs">
+                        <div class="swiper-container gallery-top">
+                            <div class="swiper-wrapper sw1">
+
+                            </div>
+                            <!-- Add Arrows -->
+                            <div class="swiper-button-next swiper-button-white"></div>
+                            <div class="swiper-button-prev swiper-button-white"></div>
+                        </div>
+                        <div class="swiper-container gallery-thumbs">
+                            <div class="swiper-wrapper sw2">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="products">
+                    <div class="productsTop">
+                        <h5 id="title1"></h5>
+                        <p><span>「128GB版本10月13号上午10点开售，购机抽奖赢70英寸电视」</span>120Hz弹出全面屏 / 天玑1000+旗舰处理器 / 索尼6400万四摄 /
+                            立体声双扬声器 / 4500mAh+33W闪充 / 双模5G / 多功能NFC / 线性震动马达 / 红外遥控</p>
+                        <span class="autotrophy">小米自营</span>
+                        <i id="money"></i>
+                        <div class="line"></div>
+                        <div class="price clear_fix">
+                            <div class="priceyy">
+                                <span class="subscribe">预约中 </span>
+                                <span><em>￥</em></span>
+                                <span class="rate" id="money1"></span>
+                            </div>
+                            <div class="end">
+                                <span class="distance">距结束</span>
+                                <div class="time">
+                                    <span class="hour">0</span>：<span class="minute">0</span>：<span
+                                        class="second">0</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="location">
+                        <div class="site">
+                            <i class="iconfont icon-dizhi"></i>
+                            <span>北京</span><span>北京市</span><span>海淀区</span><span>清河街道</span><em><a
+                                    href="javascript:;">修改</a></em>
+                            <p>该地区暂时缺货</p>
+                        </div>
+                    </div>
+
+                    <div class="content">
+                        <span class="content-title" id="title3"> </span>
+                        <span class="content-price new-price2" id="money2"></span>
+                        <p class="content-price2 new-price3" id="money3"></p>
+                    </div>
+                    <div class="car">
+                        <div class="shop-car"></div>
+                        <div class="shop-like"><i class="iconfont " value="1">&#xe646;</i>喜欢</div>
+                    </div>
+                    <div class="other">
+                        <span><i class="iconfont icon-dui"></i>小米自营</span>
+                        <span class="shipments"><i class="iconfont icon-dui"></i>小米发货</span>
+                        <span><i class="iconfont icon-dui"></i>7天无理由退货</span>
+                        <span class="freight"><i class="iconfont icon-dui"></i>运费说明</span>
+                        <span class="freight"><i class="iconfont icon-dui"></i>企业信息</span>
+                        <span class="freight"><i class="iconfont icon-dui"></i>售后服务政策</span>
+                        <span class="freight"><i class="iconfont icon-dui"></i>7天价格保护</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="priceDescription">
+            <h3>价格说明</h3>
+            <img src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/a482afa34053b1b32ece1023475af7fb.jpeg" alt="">
+        </div>
+    </div>
+    <div class="footer"></div>
+
+    <script src="../js/swiper.min.js"></script>
+    <script>
+        // var galleryTop = new Swiper('.gallery-top', {
+        //     nextButton: '.swiper-button-next',
+        //     prevButton: '.swiper-button-prev',
+        //     spaceBetween: 10,
+        //     loop: true,
+        //     loopedSlides: 5, //looped slides should be the same     
+        // });
+        // var galleryThumbs = new Swiper('.gallery-thumbs', {
+        //     spaceBetween: 10,
+        //     slidesPerView: 4,
+        //     touchRatio: 0.2,
+        //     loop: true,
+        //     loopedSlides: 5, //looped slides should be the same
+        //     slideToClickedSlide: true
+        // });
+        // galleryTop.params.control = galleryThumbs;
+        // galleryThumbs.params.control = galleryTop;
+
+    </script>
+
+</body>
+
+
+<script src="../js/times.js"></script>
+<script src="../js/detail.js"></script>
+<script src="../js/checkLogin.js"></script>
+
+</html>

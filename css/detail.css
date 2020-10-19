@@ -1,0 +1,318 @@
+.mian{
+    width: 100%;
+    position: relative;
+}
+.mian .navTop{
+    position: sticky; 
+    top:0;
+    z-index: 4;
+    background: #fff;
+    width: 100%;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    -webkit-box-shadow: 0 5px 5px rgba(0,0,0,.07);
+    box-shadow: 0 5px 5px rgba(0,0,0,.07);
+}
+.mian .navTop .nav{
+    width: 1226px;
+    margin: 0 auto;
+    
+}
+.ultimate h2{
+    margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 60px;
+    color: #424242;
+    float: left;
+}
+.series span{
+    margin: 0 .5em;
+    color: #424242;
+}
+.series{
+    float: left;
+    margin-left: 5px;
+    font-size: 12px;
+    margin-top: 21px;
+}
+.series a:hover{
+    color: #ff6700;
+    text-decoration: none;
+}
+.navList{
+    float: right;
+    margin: 17px 0 0 0;
+}
+.navList a{
+    color: #616161;
+}
+.navList span{
+    color: #e0e0e0;
+    margin: 0 0.5em;
+}
+.navList a:hover{
+    color: #ff6700;
+    text-decoration: none;
+}
+/* 详情展示 */
+.centre{
+    width: 1226px;
+    margin: 0 auto;
+}
+.show{
+    padding-top: 32px;
+    padding-bottom: 12px;
+}
+.show .pics{
+    width: 606px;
+    float: left;
+    position: relative;
+    border: 3px solid #ff6700;
+}
+.show .pics img{
+    width: 560px;
+    height: 560px;
+}
+.show .pics .picszs{
+padding: 20px;
+}
+.products{
+    width: 600px;
+    float: left;
+    margin-left: 20px;
+}
+.products .productsTop h5{
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    font-weight: 400;
+    color: #212121;
+}
+.products .productsTop p{
+    color: #b0b0b0;
+    margin: 0;
+    padding: 0;
+    padding-top: 8px;
+    line-height: 1.5;
+}
+.products .productsTop p span{
+    color: rgb(255, 74, 0);
+}
+.productsTop .autotrophy{
+    color: #ff6700;
+    margin-bottom: 0;
+    line-height: 30px;
+}
+.productsTop i{
+    font-size: 18px;
+    line-height: 1;
+    color: #ff6700;
+    padding: 12px 0 10px;
+    display: block;
+}
+.line{
+    margin-top: 12px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.productsTop .price{
+    position: relative;
+    height: 52px;
+    background: url(//cdn.cnbj1.fds.api.mi-img.com/staticsfile/buydetail/booking.png) 50% 0 no-repeat;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: #fff;
+    margin-top: 15px;
+}
+.price .priceyy{
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    height: 100%;
+    line-height: 52px;
+}
+.price .priceyy .subscribe{
+    text-align: right;
+    /* width: 100px; */
+    line-height: 52px;
+    font-size: 14px;
+    margin-left: 36px;
+    display: block;
+    float: left;
+}
+.price .priceyy .rate{
+    font-size: 22px; 
+}
+.priceyy em{
+    display: inline;
+    font-size: 22px;
+    margin-left: 8px;
+}
+.end{
+    position: relative;
+    height: 52px;
+    background: url(//cdn.cnbj1.fds.api.mi-img.com/staticsfile/buydetail/booking.png) 100% 0 no-repeat;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: #fff;
+    float: right;
+}
+.end .distance{
+    margin-left: 20px;
+    margin-right: 12px;
+    height: 30px;
+    margin-top: 11px;
+    line-height: 30px;
+    max-width: 200px;
+    display: inline-block;
+    height: 100%;
+    font-size: 12px;
+}
+.end .time span{
+    text-align: center;
+    width: 18px;
+    background: #c20000;
+    border-radius: 2px;
+    margin: 0 6px;
+    height: 17px;
+    margin-top: 18px;
+    display: inline-block;
+}
+.products .location{
+    padding: 30px 50px;
+    position: relative;
+    background: #fafafa;
+    border: 1px solid #e0e0e0;
+    margin: 20px 0;
+    width: 600px;
+}
+.products .location .site i{
+    display: inline-block;
+}
+.products .location .site span{
+    display: inline;
+    margin-right: 14px;
+}
+.products .location .site em a{
+    color: #ff6700;
+    margin: 0;
+}
+.products .location .site p{
+    color: #ff6700;
+    margin: 0;
+}
+
+
+
+.content {
+    height: 140px;
+    margin-top: 30px;
+    background: #f9f9fa;
+    padding: 32px 36px;
+    box-sizing: border-box;
+}
+
+.content span {
+    color: #616161;
+    font-size: 14px;
+}
+
+.content span:nth-of-type(1) {
+    float: left;
+}
+
+.content span:nth-of-type(2) {
+    float: right;
+}
+
+.content p {
+    color: #ff6700;
+    font-size: 24px;
+    line-height: 24px;
+    margin-top: 54px;
+    clear: both;
+}
+
+ .car .shop-car {
+    width: 300px;
+    height: 54px;
+    background: #ff6700;
+    margin-top: 32px;
+    font-size: 16px;
+    text-align: center;
+    float: left;
+    line-height: 54px;
+    cursor: pointer;
+}
+.car .shop-car a{
+    color: white;
+    display: block;
+}
+.car .shop-car a:hover{
+    text-decoration: none;
+}
+
+ .car .shop-like {
+    margin-top: 32px;
+    width: 142px;
+    height: 54px;
+    font-size: 16px;
+    color: white;
+    float: left;
+    margin-left: 12px;
+    line-height: 54px;
+    text-align: center;
+    background: #b0b0b0;
+    cursor: pointer;
+}
+
+ .car .shop-like i {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 18px;
+    width: 10px;
+    height: 10px;
+    vertical-align: top;
+}
+
+ .other {
+    padding-top: 26px;
+    font-size: 14px;
+    clear: both;
+}
+
+ .other span {
+    margin-right: 18px;
+    color: #b0b3bc;
+}
+
+ .other span i {
+    margin-right: 5px;
+}
+
+.big-img img {
+    width: 100%;
+    height: 4803px;
+}
+
+/* 价格说明 */
+.priceDescription{
+    width: 100%;
+    background-color: rgb(245,245,245);
+    padding-bottom: 50px;
+}
+.priceDescription h3{
+    width: 1226px;
+    margin-right: auto;
+    margin-left: auto;
+    line-height: 80px;
+}
+.priceDescription img{
+    position: relative;
+    width:1226px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+

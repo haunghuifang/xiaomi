@@ -1,0 +1,191 @@
+.header{
+    width: 100%;
+}
+.logo{
+    width: 1130px;
+    margin: 0 auto;
+}
+.main{
+    width: 100%;
+    background: url("../images/download.jpg") no-repeat -510px center;
+}
+.main .index {
+    width: 1130px;
+    height: 588px;
+    margin: 0 auto;
+    position: relative;
+    
+}
+.logIn{
+    width: 410px;
+    height: 558px;
+    margin-right: 0;
+    background-color: white;
+    position: absolute;
+    top: 31px;
+    left: 728px;
+}
+.title{
+    width: 410px;
+    
+}
+
+.title li{
+    width: 200px;
+    padding: 27px 0 24px;
+    text-align: center;
+    font-size: 24px;
+    color: #666;
+    float: left;
+    cursor: pointer;
+}
+.titleLogn{
+    background: url("../images/shuxian_03.png") no-repeat right center;
+    background-size: 3px 30px;
+}
+.message input{
+    height: 42px;
+    line-height: 42px;
+    padding: 13px 16px 13px 14px;
+    display: block;
+    width: 306px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    outline: none;
+}
+.register{
+    width: 306px;
+    background-color: #ff6700;
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 50px;
+}
+.lognWay .lognone{
+    margin-top: 20px;
+    color: #ff6700;
+    border: 0 none;
+    height: auto;
+    line-height: normal;
+    margin: 0; 
+    display: block;
+    margin-bottom: 30px;
+}
+.lognWay .lognone a{
+    color: #ff6700;
+    
+}
+.lognWay{
+    text-align: center;
+    cursor: pointer;
+    color: #e0e0e0;
+}
+.lognWay span a{
+    color: #999;
+}
+.lognSelect{
+    margin-top: 160px;
+    margin-left: 80px;
+}
+.lognSelect .iconfont{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    font-size: 32px;
+    margin-right: 32px;
+    margin-top: 16px;
+}
+.titleColorSub{
+    color: #ff6700 !important;
+}
+.titleColor{
+    color: #ff6700 !important;
+}
+.tipsColor{
+    color: #ff6700 !important;
+    font-size: 16px;
+    margin-left: 50px;
+}
+.tips{
+    margin-bottom: 15px;
+    display: block;
+}
+.inputColor{
+    border:1px solid #ff6700 !important;
+}
+.cur {
+    display: block !important;
+}
+.cut{
+    display: none !important;
+}
+
+.iconfont:nth-child(1){
+    color: #0288d1;
+}
+.iconfont:nth-child(2){
+    color: #d32f2f;
+}
+.iconfont:nth-child(3){
+    color: #0ae;
+}
+.iconfont:nth-child(4){
+    color: #00d20d;
+}
+.scan{
+    display: none;
+    width: 350px;
+    height: 464px;
+    margin-left: 32px;
+    position: absolute;
+    bottom: 0;
+}
+.scan img{
+    width: 182px;
+    height: 182px;
+    margin-left: 82px;
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+.scan p span{
+    color: #ff6700;
+}
+.scan p{
+    color: #757575;
+    font-size: 14px;
+    text-align: center;
+    
+}
+.footer{
+    padding-top: 100px;
+    width: 100%;
+}
+.footerOne{
+    width: 1130px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.footerOne span{
+    font-size: 14px;
+    color: #757575;
+}
+.footer li:hover{
+    color: #333333;
+}
+.footer p{
+    width: 100%;
+    padding: 10px;
+    color: #757575;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.footer p i{
+    display: inline-block;
+}

@@ -1,0 +1,127 @@
+body{
+    background-color: #f9f9f9;
+}
+.content{
+    width: 854px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    background-color: white;
+    margin-top: 20px;
+}
+.content img{
+    width: 49px;
+    height: 48px;
+    margin: 0 auto;
+    display: block;
+    cursor: default;
+    margin-bottom: 40px;
+}
+.content h2{
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.menu{
+    width: 330px;
+    margin: 0 auto;
+}
+.content p{
+    padding-bottom: 5px;
+    color: #333;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 30px;
+}
+.country{
+    width: 330px;
+    border: 1px solid #e8e8e8;
+    cursor: pointer;
+    height: 40px;
+    line-height: 40px;
+    outline: none;
+}
+.phone{
+    width: 54px;
+    border: 1px solid #e8e8e8;
+    cursor: pointer;
+    height: 40px;
+    line-height: 40px;
+    outline: none;
+}
+.phone-num{
+    width: 271px;
+    border: 1px solid #e8e8e8;
+    cursor: pointer;
+    height: 40px;
+    line-height: 40px;
+    outline: none;
+    padding-left: 10px;
+}
+.password,.passwordRe{
+    width: 330px;
+    cursor: pointer;
+    height: 40px;
+    line-height: 40px;
+    outline: none;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    border: 1px solid #e8e8e8;
+}
+.register{
+    background-color: #ff6700;
+    text-align: center;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 10px;
+    color: white;
+
+}
+.protocol{
+    text-align: center;
+    display: block;
+    padding: 10px 0;
+    cursor: pointer;
+    line-height: 60px;
+}
+.tipsColor{
+    line-height: 20px;
+    font-size: 14px;
+    color: #f66;
+}
+.tipsPasswordColor{
+    margin-bottom: 10px;
+    font-size: 14px;
+    margin-top: -10px;
+    color: #f66;
+    display: block;
+}
+.footer{
+    padding-top: 100px;
+    width: 100%;
+}
+.footerOne{
+    width: 1130px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.footerOne span{
+    font-size: 14px;
+    color: #757575;
+}
+.footer li:hover{
+    color: #333333;
+}
+.footer p{
+    width: 100%;
+    padding: 10px;
+    color: #757575;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.footer p i{
+    display: inline-block;
+}
